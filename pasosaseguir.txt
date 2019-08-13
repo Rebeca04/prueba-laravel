@@ -1,0 +1,16 @@
+1. Instalar xampp
+2. Modificar en los archivos el puerto y host
+3. Modificar .env
+    /*
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3307 (puerto de mysql)
+        DB_DATABASE=nombre_DB
+        DB_USERNAME=root
+        DB_PASSWORD=
+        // Los datos del usuario modificarlos en http://localhost:88(puerto Apache)/phpmyadmin/ 
+    */ 
+
+// Revisar versiones: php, composer
+// Manual Laravel 5: https://desarrolloweb.com/manuales/manual-laravel-5.html#capitulos190
+// Manual PHP7: https://www.w3schools.com/php7/default.asp
