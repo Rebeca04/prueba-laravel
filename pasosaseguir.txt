@@ -1,4 +1,5 @@
 1. Instalar xampp
+    // https://www.apachefriends.org/es/download.html   
 2. Modificar en los archivos el puerto y host
 3. Modificar .env
     /*
