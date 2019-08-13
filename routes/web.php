@@ -1,5 +1,8 @@
 <?php
 
+use App\Pastel;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,5 +15,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return (Pastel::get());
+    // return view('welcome');
+});
+
+
+Route::get('pastelesVainilla', function(){
+    $table = 'pasteles';
+    // $pasteles = $table::get();
+    return (Pastel::get()->where('sabor','vainilla'));
 });

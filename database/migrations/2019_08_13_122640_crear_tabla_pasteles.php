@@ -14,7 +14,7 @@ class CrearTablaPasteles extends Migration
     public function up()
     {
         Schema::create('pasteles', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->string('id');
             $table->timestamps();
         });
     }
