@@ -15,9 +15,13 @@ use App\Pastel;
 */
 
 Route::get('/', function () {
-    return (Pastel::get());
-    // return view('welcome');
+    return view('welcome');
 });
+
+Route::get('index', function () {
+    return view('index');
+});
+
 
 
 Route::get('pastelesVainilla', function(){
