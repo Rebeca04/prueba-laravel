@@ -15,6 +15,8 @@
     <meta name="msapplication-TileColor" content="#00a8ff">
     <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <!-- Local css -->
+    <link rel="stylesheet" type="text/css" href="css/propio.css">
     <!-- Normalize -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <!-- Bootstrap -->
